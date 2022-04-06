@@ -71,7 +71,7 @@ public class Plot {
 	
 	public boolean overlaps(Plot plot) {
 		boolean result = false;
-		//calcular la parte izquierda arriva y derecha arriba 
+		//calcular la parte izquierda arriba y derecha arriba 
 		if (plot.getX() <= this.x + this.width && this.x <= plot.getX() + plot.getWidth())
 		{
 			result = true;
